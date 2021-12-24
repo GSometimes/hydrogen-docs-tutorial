@@ -10,6 +10,7 @@ import Header from './Header.client';
 import Footer from './Footer.server';
 import {useCartUI} from './CartUIProvider.client';
 import Cart from './Cart.client';
+import Collection1 from '../../components/Collections/Collection1/Collection1';
 
 export default function Layout({children, hero}) {
   const {data} = useShopQuery({
@@ -55,6 +56,7 @@ export default function Layout({children, hero}) {
             {children}
           </div>
         </main>
+        <Collection1 />
         <Footer collection={collections[0]} product={products[0]} />
       </div>
     </LocalizationProvider>
