@@ -56,7 +56,6 @@ export default function Layout({children, hero}) {
             {children}
           </div>
         </main>
-        <Collection1 />
         <Footer collection={collections[0]} product={products[0]} />
       </div>
     </LocalizationProvider>

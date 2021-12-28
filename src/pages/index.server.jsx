@@ -40,6 +40,7 @@ export default function Index({country = {isoCode: 'US'}}) {
   return (
     <Layout>
       <Hero2 collectionsData={Hero2Collections} />
+      <h2 className="pl-4">Most Popular Products</h2>
       <Collection1 popularProductsData={mostPopularProducts} />
       {/* <div className="relative mb-12">
         <Welcome />
