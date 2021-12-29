@@ -4,7 +4,7 @@ import gql from 'graphql-tag';
 
 import ProductDetails from '../../components/ProductDetails.client';
 import NotFound from '../../components/NotFound.server';
-import Layout from '../../components/Layout.server';
+import Layout from '../../../components/layouts/Layout.server';
 
 export default function Product({country = {isoCode: 'US'}}) {
   const {handle} = useParams();

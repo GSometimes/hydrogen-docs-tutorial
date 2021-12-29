@@ -2,7 +2,7 @@ import {useParams} from 'react-router-dom';
 import {useShopQuery, RawHtml} from '@shopify/hydrogen';
 import gql from 'graphql-tag';
 
-import Layout from '../../components/Layout.server';
+import Layout from '../../../components/layouts/Layout.server';
 import NotFound from '../../components/NotFound.server';
 
 export default function Page() {
